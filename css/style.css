@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.top {
+    width: 364px;
+    height: 199px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+}
+
+.bottom {
+    width: 364px;
+    height: 325px;
+    background: #000;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.about_txt{
+    color: rgba(255, 255, 255, 0.56);
+font-family: Gilroy;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.about_bottom{
+    padding: 20px;
+    padding-left: 30px;
+    height: 240px;
+}
+
+.price{
+    color: #FFF;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.about_imgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.about_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.about_block img{
+    width: 12px;
+height: 13.385px;
+flex-shrink: 0;
+}
+
+.choose{
+    width: 305px;
+height: 55px;
+border-radius: 10px;
+border: 1px solid #000;
+background: #FFF;
+border: none;
+
+color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 30px;
+}
+
+button:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+button:not(:hover) {
+    transition: 1s;
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0.696);
+    color: #9b9b9b;
+    transform: scale(1);
+    box-shadow: inset 4px 2px 3px rgba(0, 0, 0, 0.347);
+}
+
+
+.all{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.head_btn{
+    width: 254px;
+height: 55px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #000;
+background: #FFF;
+
+color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+h1{
+    color: #000;
+text-align: center;
+font-family: Gilroy;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.about_head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_hd{
+    display: flex;
+    gap: 20px;
+}
+
+header{
+    height: 230px;
+}
